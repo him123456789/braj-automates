@@ -1,6 +1,6 @@
 import { ChevronDown, Download, Play, MapPin, Coffee } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import profileImage from '@/assets/braj-profile.jpg';
+import profileImage from '@/assets/braj-profile-new.jpg';
 import { useEffect, useState } from 'react';
 
 const Hero = () => {
