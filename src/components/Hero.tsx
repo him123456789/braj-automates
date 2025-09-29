@@ -28,10 +28,10 @@ const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Animated Background Mesh */}
-      <div className="absolute inset-0 bg-gradient-hero opacity-90"></div>
-      <div className="absolute inset-0 bg-mesh-pattern opacity-20"></div>
+      <div className="absolute inset-0 bg-gradient-hero opacity-80"></div>
+      <div className="absolute inset-0 bg-mesh-pattern opacity-15"></div>
       {/* Dark overlay for better text contrast */}
-      <div className="absolute inset-0 bg-black/20"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/40"></div>
       
       {/* Floating Particles */}
       <div className="absolute inset-0">
@@ -78,7 +78,7 @@ const Hero = () => {
                 👋 Hi I'm Braj Patel
               </p>
               <h1 className={`text-5xl lg:text-6xl font-bold mb-4 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`} style={{ animationDelay: '0.4s' }}>
-                <span className="text-gradient animate-text-reveal">SOFTWARE ENGINEER</span>
+                <span className="text-gradient animate-text-reveal drop-shadow-lg">SOFTWARE ENGINEER</span>
               </h1>
             </div>
 
@@ -98,7 +98,7 @@ const Hero = () => {
               </div>
             </div>
 
-            <p className={`text-xl text-muted-foreground mb-8 max-w-2xl transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`} style={{ animationDelay: '1s' }}>
+            <p className={`text-xl text-foreground/90 mb-8 max-w-2xl transition-all duration-700 drop-shadow-md ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`} style={{ animationDelay: '1s' }}>
               As a dedicated professional with 4+ years of experience, I bring expertise in test automation, 
               AI frameworks, and scalable solution design throughout every phase of my career.
             </p>
