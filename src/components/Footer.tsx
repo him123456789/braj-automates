@@ -25,21 +25,25 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="mailto:braj.patel@example.com"
+                href="mailto:patelbraj1311@gmail.com"
                 className="bg-primary/20 p-3 rounded-lg hover:scale-110 transition-transform group"
                 aria-label="Email"
               >
                 <Mail className="h-5 w-5 text-primary group-hover:text-accent transition-colors" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/brajpatel-sdet/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-primary/20 p-3 rounded-lg hover:scale-110 transition-transform group"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="h-5 w-5 text-primary group-hover:text-accent transition-colors" />
               </a>
               <a
-                href="#"
+                href="https://github.com/him123456789"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-primary/20 p-3 rounded-lg hover:scale-110 transition-transform group"
                 aria-label="GitHub"
               >

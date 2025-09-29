@@ -108,7 +108,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="font-semibold text-foreground">Email</p>
-                      <p className="text-muted-foreground">braj.patel@example.com</p>
+                      <p className="text-muted-foreground">patelbraj1311@gmail.com</p>
                     </div>
                   </div>
 
@@ -118,7 +118,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="font-semibold text-foreground">Phone</p>
-                      <p className="text-muted-foreground">+91 98765 43210</p>
+                      <p className="text-muted-foreground">+44 7587326129</p>
                     </div>
                   </div>
 
@@ -128,7 +128,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="font-semibold text-foreground">Location</p>
-                      <p className="text-muted-foreground">India (Available for Remote Work)</p>
+                      <p className="text-muted-foreground">London, United Kingdom (Available for Remote Work)</p>
                     </div>
                   </div>
                 </div>
@@ -138,13 +138,17 @@ const Contact = () => {
                   <p className="font-semibold text-foreground mb-4">Connect on Social</p>
                   <div className="flex space-x-4">
                     <a
-                      href="#"
+                      href="https://www.linkedin.com/in/brajpatel-sdet/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="bg-primary/20 p-3 rounded-lg hover:scale-110 transition-transform group"
                     >
                       <Linkedin className="h-6 w-6 text-primary group-hover:text-accent transition-colors" />
                     </a>
                     <a
-                      href="#"
+                      href="https://github.com/him123456789"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="bg-accent/20 p-3 rounded-lg hover:scale-110 transition-transform group"
                     >
                       <Github className="h-6 w-6 text-accent group-hover:text-primary transition-colors" />
