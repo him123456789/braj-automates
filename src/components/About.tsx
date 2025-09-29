@@ -7,9 +7,7 @@ const About = () => {
         <div className="text-center mb-16">
           <p className="text-accent font-semibold mb-2">✨ ABOUT ME</p>
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-            BEST <span className="text-gradient">AUTOMATION ENGINEER</span>
-            <br />
-            & <span className="text-accent-gradient">TECHNICAL ADVISOR</span> IN INDIA
+            <span className="text-gradient">SOFTWARE ENGINEER</span> | <span className="text-accent-gradient">INNOVATION ENTHUSIAST</span>
           </h2>
         </div>
 
