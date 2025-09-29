@@ -98,7 +98,7 @@ const Hero = () => {
               </div>
             </div>
 
-            <p className={`text-xl text-foreground/90 mb-8 max-w-2xl transition-all duration-700 drop-shadow-md ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`} style={{ animationDelay: '1s' }}>
+            <p className={`text-xl text-foreground/90 mb-8 max-w-2xl mx-auto text-center transition-all duration-700 drop-shadow-md ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`} style={{ animationDelay: '1s' }}>
               As a dedicated professional with 4+ years of experience, I bring expertise in test automation, 
               AI frameworks, and scalable solution design throughout every phase of my career.
             </p>
@@ -147,7 +147,6 @@ const Hero = () => {
               </div>
               
               {/* Floating Elements */}
-              <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-secondary rounded-full animate-pulse-slow group-hover:animate-bounce"></div>
               <div className="absolute -bottom-2 -left-2 w-12 h-12 bg-gradient-to-r from-accent to-primary rounded-full animate-float opacity-60"></div>
               
               {/* Skill Tags */}
