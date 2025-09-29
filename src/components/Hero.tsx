@@ -78,11 +78,8 @@ const Hero = () => {
                 👋 Hi I'm Braj Patel
               </p>
               <h1 className={`text-5xl lg:text-6xl font-bold mb-4 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`} style={{ animationDelay: '0.4s' }}>
-                <span className="text-gradient animate-text-reveal">AUTOMATION ENGINEER</span>
+                <span className="text-gradient animate-text-reveal">SOFTWARE ENGINEER</span>
               </h1>
-              <h2 className={`text-3xl lg:text-4xl font-bold text-foreground mb-6 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`} style={{ animationDelay: '0.6s' }}>
-                & <span className="text-accent-gradient animate-text-reveal">TECHNICAL ADVISOR</span>
-              </h2>
             </div>
 
             {/* Stats */}
