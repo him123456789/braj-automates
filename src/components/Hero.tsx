@@ -31,7 +31,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-hero opacity-60"></div>
       <div className="absolute inset-0 bg-mesh-pattern opacity-10"></div>
       {/* Dark overlay for better text contrast */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/90 to-black/60"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/100 to-black/90"></div>
       
       {/* Floating Particles */}
       <div className="absolute inset-0">
