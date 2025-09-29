@@ -28,10 +28,10 @@ const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Animated Background Mesh */}
-      <div className="absolute inset-0 bg-gradient-hero opacity-80"></div>
-      <div className="absolute inset-0 bg-mesh-pattern opacity-15"></div>
+      <div className="absolute inset-0 bg-gradient-hero opacity-60"></div>
+      <div className="absolute inset-0 bg-mesh-pattern opacity-10"></div>
       {/* Dark overlay for better text contrast */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/40"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/70 to-black/60"></div>
       
       {/* Floating Particles */}
       <div className="absolute inset-0">
