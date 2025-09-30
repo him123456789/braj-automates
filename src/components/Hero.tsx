@@ -120,7 +120,7 @@ const Hero = () => {
             <div className={`flex justify-center lg:justify-start gap-4 text-sm text-muted-foreground transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`} style={{ animationDelay: '1.4s' }}>
               <div className="flex items-center gap-1">
                 <MapPin className="w-4 h-4" />
-                <span>India</span>
+                <span>London, United Kingdom</span>
               </div>
               <div className="flex items-center gap-1">
                 <Coffee className="w-4 h-4" />
