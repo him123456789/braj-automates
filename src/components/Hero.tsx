@@ -33,35 +33,89 @@ const Hero = () => {
       {/* Dark overlay for better text contrast */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/90 to-black/60"></div>
       
-      {/* Floating Particles */}
+      {/* Floating Programming Language Logos */}
       <div className="absolute inset-0">
-        {[...Array(20)].map((_, i) => (
-          <div
-            key={i}
-            className="absolute w-2 h-2 bg-primary/20 rounded-full animate-float-particle"
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 10}s`,
-              animationDuration: `${8 + Math.random() * 4}s`
-            }}
-          />
-        ))}
-      </div>
+        {/* Python */}
+        <div className="absolute w-12 h-12 animate-float-particle" style={{ left: '10%', top: '20%', animationDelay: '0s', animationDuration: '8s' }}>
+          <svg viewBox="0 0 24 24" fill="none" className="w-full h-full opacity-30 hover:opacity-60 transition-opacity">
+            <path d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 3 7.647 3L7.6 5.859s-.047 1.812 1.788 1.812h4.194v.966H6.949s-3.613-.395-3.613 5.115c0 5.508 3.145 5.312 3.145 5.312h1.871v-2.635s-.1-3.137 3.233-3.137z" fill="url(#python-gradient)" />
+            <defs>
+              <linearGradient id="python-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stopColor="#4B8BBE" />
+                <stop offset="100%" stopColor="#FFD43B" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
 
-      {/* Interactive Cursor Effect */}
-      <div 
-        className="absolute w-96 h-96 bg-primary/5 rounded-full blur-3xl transition-all duration-300 pointer-events-none"
-        style={{
-          left: mousePosition.x - 192,
-          top: mousePosition.y - 192,
-        }}
-      />
-      
-      {/* Geometric Decorations */}
-      <div className="absolute top-20 right-20 geometric-accent animate-float"></div>
-      <div className="absolute bottom-32 left-16 geometric-accent animate-float" style={{ animationDelay: '2s' }}></div>
-      <div className="absolute top-1/2 right-10 geometric-accent animate-float" style={{ animationDelay: '4s' }}></div>
+        {/* JavaScript */}
+        <div className="absolute w-12 h-12 animate-float-particle" style={{ right: '15%', top: '15%', animationDelay: '2s', animationDuration: '10s' }}>
+          <div className="w-full h-full bg-[#F7DF1E] rounded-lg flex items-center justify-center text-black font-bold text-xl opacity-30 hover:opacity-60 transition-opacity">
+            JS
+          </div>
+        </div>
+
+        {/* React */}
+        <div className="absolute w-14 h-14 animate-float-particle" style={{ left: '20%', top: '60%', animationDelay: '4s', animationDuration: '9s' }}>
+          <svg viewBox="-11.5 -10.23174 23 20.46348" className="w-full h-full opacity-30 hover:opacity-60 transition-opacity">
+            <circle cx="0" cy="0" r="2.05" fill="#61dafb"/>
+            <g stroke="#61dafb" strokeWidth="1" fill="none">
+              <ellipse rx="11" ry="4.2"/>
+              <ellipse rx="11" ry="4.2" transform="rotate(60)"/>
+              <ellipse rx="11" ry="4.2" transform="rotate(120)"/>
+            </g>
+          </svg>
+        </div>
+
+        {/* TypeScript */}
+        <div className="absolute w-12 h-12 animate-float-particle" style={{ right: '20%', bottom: '25%', animationDelay: '1s', animationDuration: '11s' }}>
+          <div className="w-full h-full bg-[#3178C6] rounded-lg flex items-center justify-center text-white font-bold text-xl opacity-30 hover:opacity-60 transition-opacity">
+            TS
+          </div>
+        </div>
+
+        {/* HTML5 */}
+        <div className="absolute w-12 h-12 animate-float-particle" style={{ left: '70%', top: '40%', animationDelay: '3s', animationDuration: '10s' }}>
+          <div className="w-full h-full bg-[#E34F26] rounded-lg flex items-center justify-center text-white font-bold text-lg opacity-30 hover:opacity-60 transition-opacity">
+            HTML
+          </div>
+        </div>
+
+        {/* CSS3 */}
+        <div className="absolute w-12 h-12 animate-float-particle" style={{ left: '5%', bottom: '30%', animationDelay: '5s', animationDuration: '9s' }}>
+          <div className="w-full h-full bg-[#1572B6] rounded-lg flex items-center justify-center text-white font-bold text-lg opacity-30 hover:opacity-60 transition-opacity">
+            CSS
+          </div>
+        </div>
+
+        {/* Node.js */}
+        <div className="absolute w-12 h-12 animate-float-particle" style={{ right: '10%', bottom: '40%', animationDelay: '6s', animationDuration: '8s' }}>
+          <div className="w-full h-full bg-[#339933] rounded-lg flex items-center justify-center text-white font-bold text-sm opacity-30 hover:opacity-60 transition-opacity">
+            Node
+          </div>
+        </div>
+
+        {/* Java */}
+        <div className="absolute w-12 h-12 animate-float-particle" style={{ left: '80%', top: '70%', animationDelay: '2.5s', animationDuration: '10s' }}>
+          <div className="w-full h-full bg-[#007396] rounded-lg flex items-center justify-center text-white font-bold text-xl opacity-30 hover:opacity-60 transition-opacity">
+            Java
+          </div>
+        </div>
+
+        {/* Git */}
+        <div className="absolute w-12 h-12 animate-float-particle" style={{ left: '40%', top: '10%', animationDelay: '7s', animationDuration: '11s' }}>
+          <div className="w-full h-full bg-[#F05032] rounded-lg flex items-center justify-center text-white font-bold text-xl opacity-30 hover:opacity-60 transition-opacity">
+            Git
+          </div>
+        </div>
+
+        {/* Docker */}
+        <div className="absolute w-12 h-12 animate-float-particle" style={{ right: '40%', bottom: '15%', animationDelay: '4.5s', animationDuration: '9s' }}>
+          <div className="w-full h-full bg-[#2496ED] rounded-lg flex items-center justify-center text-white font-bold text-sm opacity-30 hover:opacity-60 transition-opacity">
+            Docker
+          </div>
+        </div>
+      </div>
 
       <div className="container mx-auto px-6 z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
