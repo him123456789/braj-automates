@@ -38,7 +38,7 @@ const Header = () => {
         isScrolled ? 'bg-background/90 backdrop-blur-lg border-b border-border' : 'bg-transparent'
       }`}
     >
-      <nav className="container mx-auto px-6 py-4">
+      <nav className="container mx-auto px-6 py-4 md:py-6">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold text-gradient">
             Braj Patel
