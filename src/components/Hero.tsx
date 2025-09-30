@@ -207,9 +207,6 @@ const Hero = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </div>
               
-              {/* Floating Elements */}
-              <div className="absolute -bottom-2 -left-2 w-12 h-12 bg-gradient-to-r from-accent to-primary rounded-full animate-float opacity-60"></div>
-              
               {/* Skill Tags */}
               <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-all duration-500 group-hover:-translate-y-2">
                 <div className="bg-card/90 backdrop-blur-sm border border-primary/20 rounded-full px-3 py-1 text-xs text-primary whitespace-nowrap">
