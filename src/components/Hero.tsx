@@ -84,7 +84,7 @@ const Hero = () => {
         {/* Selenium */}
         <div className="absolute w-14 h-14 animate-float-particle" style={{ left: '3%', top: '45%', animationDelay: '5s', animationDuration: '9s' }}>
           <div className="w-full h-full bg-[#43B02A] rounded-lg flex items-center justify-center text-white font-bold text-xs opacity-30 hover:opacity-60 transition-opacity p-2">
-            Selenium
+            Python
           </div>
         </div>
 
@@ -161,7 +161,7 @@ const Hero = () => {
 
             <p className={`text-xl text-foreground/90 mb-8 max-w-2xl mx-auto text-center transition-all duration-700 drop-shadow-md ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`} style={{ animationDelay: '1s' }}>
               As a dedicated professional with 4+ years of experience, I bring expertise in test automation, 
-              AI frameworks, and scalable solution design throughout every phase of my career.
+              AI frameworks and scalable solution design throughout every phase of my career.
             </p>
 
             <div className={`flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-6 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`} style={{ animationDelay: '1.2s' }}>
