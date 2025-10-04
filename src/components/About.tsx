@@ -51,7 +51,10 @@ const About = () => {
               </div>
             </div>
 
-            <button className="btn-hero">
+            <button 
+              className="btn-hero" 
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               GET IN TOUCH NOW
             </button>
           </div>

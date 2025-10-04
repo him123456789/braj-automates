@@ -92,7 +92,7 @@ const Portfolio = () => {
                 ))}
               </div>
 
-              <div className="flex space-x-3">
+              <div className="flex gap-3">
                 <Button variant="outline" size="sm" className="flex-1">
                   <Github className="h-4 w-4 mr-2" />
                   Code
