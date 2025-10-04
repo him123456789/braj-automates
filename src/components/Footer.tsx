@@ -110,7 +110,7 @@ const Footer = () => {
             © {currentYear} Braj Patel. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm flex items-center mt-4 md:mt-0">
-            Made with <Heart className="h-4 w-4 text-accent mx-1" /> using React & TypeScript
+            Built with <Heart className="h-4 w-4 text-accent mx-1" /> on Lovable
           </p>
         </div>
       </div>
