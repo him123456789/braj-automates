@@ -25,6 +25,15 @@ const Hero = () => {
     }
   };
 
+  const handleDownloadCV = () => {
+    const link = document.createElement('a');
+    link.href = '/BrajPatelSDET.pdf';
+    link.download = 'BrajPatel_CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Animated Background Mesh */}
@@ -165,13 +174,11 @@ const Hero = () => {
             </p>
 
             <div className={`flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-6 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`} style={{ animationDelay: '1.2s' }}>
-              <a href="/BrajPatelSDET.pdf" download="BrajPatel_CV.pdf">
-                <Button className="btn-hero group magnetic-button">
-                  <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
-                  Download CV
-                  <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                </Button>
-              </a>
+              <Button onClick={handleDownloadCV} className="btn-hero group magnetic-button">
+                <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
+                Download CV
+                <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              </Button>
               <Button variant="outline" className="btn-secondary group magnetic-button">
                 <Play className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
                 Play Video
