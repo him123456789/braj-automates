@@ -1,6 +1,13 @@
 import { Lightbulb, Settings, Brain, Code, CheckCircle } from 'lucide-react';
 
 const Services = () => {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="services" className="py-20 bg-secondary/50">
       <div className="container mx-auto px-6">
@@ -116,7 +123,7 @@ const Services = () => {
 
           {/* CTA */}
           <div className="text-center mt-12">
-            <button className="btn-hero">
+            <button onClick={scrollToContact} className="btn-hero">
               GET EXPERT CONSULTATION
             </button>
           </div>
