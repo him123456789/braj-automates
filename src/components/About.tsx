@@ -15,7 +15,7 @@ const About = () => {
           {/* Bio Content */}
           <div>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              I'm Braj Patel, an Automation Engineer with 4+ years of experience designing and implementing 
+              I'm Braj Patel, an Automation Engineer with 5+ years of experience designing and implementing 
               robust test automation solutions. My expertise spans web (Selenium with C#), mobile (Appium), 
               and backend/API validation (RestSharp, Azure microservices).
             </p>
@@ -64,7 +64,7 @@ const About = () => {
             {/* Stats Grid */}
             <div className="grid grid-cols-2 gap-6">
               <div className="card-gradient text-center">
-                <div className="text-3xl font-bold text-accent mb-2">4+</div>
+                <div className="text-3xl font-bold text-accent mb-2">5+</div>
                 <div className="text-sm text-muted-foreground">Years Experience</div>
               </div>
               <div className="card-gradient text-center">

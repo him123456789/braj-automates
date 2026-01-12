@@ -20,7 +20,7 @@ const Footer = () => {
               Braj Patel
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
-              Software Engineer with 4+ years of experience 
+              Software Engineer with 5+ years of experience 
               in building scalable test automation solutions and AI-driven frameworks.
             </p>
             <div className="flex space-x-4">
