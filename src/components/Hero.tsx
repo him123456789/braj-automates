@@ -165,7 +165,7 @@ const Hero = () => {
             {/* Stats */}
             <div className={`flex justify-center lg:justify-start gap-6 mb-6 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`} style={{ animationDelay: '0.8s' }}>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">4+</div>
+                <div className="text-2xl font-bold text-primary">5</div>
                 <div className="text-sm text-muted-foreground">Years Experience</div>
               </div>
               <div className="text-center">
@@ -179,7 +179,7 @@ const Hero = () => {
             </div>
 
             <p className={`text-xl text-foreground/90 mb-8 max-w-2xl mx-auto text-center transition-all duration-700 drop-shadow-md ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`} style={{ animationDelay: '1s' }}>
-              As a dedicated professional with 4+ years of experience, I bring expertise in test automation, 
+              As a dedicated professional with 5 years of experience, I bring expertise in test automation, 
               AI frameworks and scalable solution design throughout every phase of my career.
             </p>
 
